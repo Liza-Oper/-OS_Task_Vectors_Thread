@@ -16,9 +16,9 @@
 
 **Результат работы:**
 Мы должны показать, что многопоточный метод работает быстрее, чем однопоточный на больших векторах
-Для одного потока: n=1000000, time=
-Для четырех потоков: n=1000000, time=
-Для десяти потоков: n=1000000, time=
+Для одного потока: n=1000000, time=0.0027
+Для четырех потоков: n=1000000, time=0.0032
+Для десяти потоков: n=1000000, time=0.0013
 
 **This code was implemented for the following task:**
 1. Create a vector of one million elements and fill it with random numbers.
@@ -37,6 +37,6 @@ After each method, the execution time is measured.
 
 **Expected outcome:**
 The goal is to demonstrate that the multi-threaded method performs faster than the single-threaded method for large vectors.
-1 thread: n=1000000, time=
-4 threads: n=1000000, time=
-10 threads: n=1000000, time=
+1 thread: n=1000000, time=0.0027
+4 threads: n=1000000, time=0.0032
+10 threads: n=1000000, time=0.0013
